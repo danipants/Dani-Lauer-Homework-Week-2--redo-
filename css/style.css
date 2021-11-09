@@ -1,0 +1,200 @@
+/* ################################################## */
+/* ########### Global classes / overrides ########### */
+/* ################################################## */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 15px 0;
+}
+
+/* Fonts, classes are so I can reuse the styles on a variety of elements */
+.merriweather { font-family: 'Merriweather', serif; }
+      .oswald { font-family: 'Oswald', sans-serif; }
+        .lato { font-family: 'Lato', sans-serif; }
+
+/* Colors */
+/* Light yellow: #f2ff00 */
+/* Dark yellow: #ffd900 */
+/* Light gray: #adadad */
+/* Dark gray: #878787 */
+
+/* Background Image */
+/* https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg */
+
+
+
+body {
+  margin: 0;
+}
+
+a {
+  cursor: pointer;
+}
+
+/* header section */
+
+.matchmaker-header {
+  align-items: center;
+  background: black;
+  border-bottom: 5px solid #f2ff00;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.matchmaker-logo {
+  color: #f2ff00;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+}
+
+
+
+.matchmaker-logo h1,
+.matchmaker-logo h1 a,
+.matchmaker-logo h1 a:visited {
+  color: #f2ff00;
+  text-decoration: none;
+}
+
+.header-nav {
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  justify-content: center;
+}
+
+
+.header-nav ul,
+.header-nav ul a,
+.header-nav ul a:visited {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  margin:0;
+  padding: 10px 0;
+  text-decoration: none;
+}
+
+.header-nav li {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.header-nav li a:hover {
+  color: #f2ff00;
+}
+
+
+.big-nav {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+/* secondary aside bar */
+
+.aside-bar {
+  background: #adadad;
+  text-align: center;
+}
+
+.aside-bar p {
+  font-family: 'Lato', sans-serif;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.underline {
+  border-bottom: 2px solid #f2ff00;
+}
+
+
+
+
+
+/* main hero section */
+
+
+.hero-section {
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg') center center no-repeat;
+  background-size: cover;
+  display: flex;
+  min-height: 60%;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.hero-div {
+  align-items: center;
+  background: rgb(255, 255, 255, .8);
+  box-shadow: 0 0 5px rgba(0,0,0,.75);
+  font-family: 'Lato', sans-serif;
+  height: 250px;
+  margin: 25px 25px 25px 0;
+  padding: 30px;
+  text-align: center;
+  width: 400px;
+}
+
+.hero-link {
+  background: #f2ff00;
+  border-bottom: 2px solid #ffd900;
+  border-radius: 5px;
+  color: black;
+  display: block;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase
+}
+
+
+.bottom-three-nav {
+  display: flex;
+  font-family: 'Lato', sans-serif;
+}
+
+.main-links {
+  background: #adadad;
+  border-bottom: 2px solid #878787;
+  border-radius: 5px;
+  color: black;
+  display: block;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase
+}
+
+.bottom-nav-block {
+  border-left: 2px solid grey;
+  padding: 20px;
+  margin: 10px;
+}
+
+.bottom-nav-block h1 {
+  font-size: 24px;
+}
+
+.bottom-nav-block:first-child {
+  border-left: none;
+}
+
+/* footer  */
+
+footer {
+  background: black;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  padding: 0 0 0 10px;
+}
